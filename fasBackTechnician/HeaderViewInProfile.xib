@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderViewForProfile">
+            <rect key="frame" x="0.0" y="0.0" width="382" height="52"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QHT-G7-ZVy">
+                    <rect key="frame" x="0.0" y="0.0" width="382" height="1"/>
+                    <color key="backgroundColor" red="0.82548385859999995" green="0.83502244950000004" blue="0.83860015870000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="HuS-9e-nux"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kO-j8-gn2">
+                    <rect key="frame" x="0.0" y="1" width="191" height="50"/>
+                    <color key="backgroundColor" red="0.98814910649999999" green="0.98829048870000002" blue="0.9881181121" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="XqT-mb-hPB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="14"/>
+                    <state key="normal" title="Basic Information">
+                        <color key="titleColor" red="0.24079450960000001" green="0.66080492729999996" blue="0.98527556660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HUa-WL-rCB">
+                    <rect key="frame" x="191" y="1" width="191" height="50"/>
+                    <color key="backgroundColor" red="0.98814910649999999" green="0.98829048870000002" blue="0.9881181121" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="14"/>
+                    <state key="normal" title="Job Information">
+                        <color key="titleColor" red="0.24079450960000001" green="0.66080492729999996" blue="0.98527556660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1T6-ZK-aYA">
+                    <rect key="frame" x="274" y="49" width="25" height="2"/>
+                    <color key="backgroundColor" red="0.24079450960000001" green="0.66080492729999996" blue="0.98527556660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="jbI-BM-KqT"/>
+                        <constraint firstAttribute="height" constant="2" id="sC2-DX-GlI"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TEq-vA-qlr">
+                    <rect key="frame" x="83" y="49" width="25" height="2"/>
+                    <color key="backgroundColor" red="0.24079450960000001" green="0.66080492729999996" blue="0.98527556660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="2MA-Tf-nGf"/>
+                        <constraint firstAttribute="height" constant="2" id="d7K-U9-Yw7"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rM6-rD-BJ6">
+                    <rect key="frame" x="0.0" y="51" width="382" height="1"/>
+                    <color key="backgroundColor" red="0.82548385859999995" green="0.83502244950000004" blue="0.83860015870000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="KjK-HR-w7j"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="rM6-rD-BJ6" firstAttribute="top" secondItem="TEq-vA-qlr" secondAttribute="bottom" id="4O9-nK-4ed"/>
+                <constraint firstAttribute="trailing" secondItem="rM6-rD-BJ6" secondAttribute="trailing" id="9Wy-Rl-pZI"/>
+                <constraint firstItem="HUa-WL-rCB" firstAttribute="height" secondItem="0kO-j8-gn2" secondAttribute="height" id="Ay7-V6-PTf"/>
+                <constraint firstItem="1T6-ZK-aYA" firstAttribute="centerX" secondItem="HUa-WL-rCB" secondAttribute="centerX" id="BH2-iY-L6W"/>
+                <constraint firstItem="HUa-WL-rCB" firstAttribute="top" secondItem="QHT-G7-ZVy" secondAttribute="bottom" id="BpH-Wn-3Ax"/>
+                <constraint firstAttribute="trailing" secondItem="HUa-WL-rCB" secondAttribute="trailing" id="FRn-h0-W37"/>
+                <constraint firstItem="QHT-G7-ZVy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="IRm-hY-Y51"/>
+                <constraint firstItem="1T6-ZK-aYA" firstAttribute="top" secondItem="HUa-WL-rCB" secondAttribute="bottom" constant="-2" id="UNR-lf-4wk"/>
+                <constraint firstItem="TEq-vA-qlr" firstAttribute="centerX" secondItem="0kO-j8-gn2" secondAttribute="centerX" id="X0s-w4-imT"/>
+                <constraint firstAttribute="trailing" secondItem="QHT-G7-ZVy" secondAttribute="trailing" id="XRN-Ke-m93"/>
+                <constraint firstItem="0kO-j8-gn2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dcz-5o-4hA"/>
+                <constraint firstItem="HUa-WL-rCB" firstAttribute="leading" secondItem="0kO-j8-gn2" secondAttribute="trailing" id="ext-XR-YFJ"/>
+                <constraint firstItem="HUa-WL-rCB" firstAttribute="width" secondItem="0kO-j8-gn2" secondAttribute="width" id="gdW-xF-SsB"/>
+                <constraint firstItem="QHT-G7-ZVy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="h2A-Is-FcI"/>
+                <constraint firstItem="rM6-rD-BJ6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="h2Q-bn-kfV"/>
+                <constraint firstItem="0kO-j8-gn2" firstAttribute="top" secondItem="QHT-G7-ZVy" secondAttribute="bottom" id="mS3-SD-amI"/>
+                <constraint firstItem="TEq-vA-qlr" firstAttribute="top" secondItem="0kO-j8-gn2" secondAttribute="bottom" constant="-2" id="uVj-sb-wLh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="basicInformationButton" destination="0kO-j8-gn2" id="l1R-XG-O8l"/>
+                <outlet property="bottomHighlightViewForJobInformationButton" destination="1T6-ZK-aYA" id="12a-wt-N2L"/>
+                <outlet property="bottomHightlightViewForBasicInformationButton" destination="TEq-vA-qlr" id="CGA-NC-RR2"/>
+                <outlet property="jobInformationButton" destination="HUa-WL-rCB" id="fN9-xz-7mr"/>
+            </connections>
+            <point key="canvasLocation" x="90" y="-138"/>
+        </view>
+    </objects>
+</document>
